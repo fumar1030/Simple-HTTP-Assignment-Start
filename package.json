@@ -15,8 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server/app.js",
-    "pretest": "eslint ./server --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"tests complete\""
   },
   "devDependencies": {
